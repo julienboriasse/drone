@@ -11,6 +11,12 @@ import yaml
 
 
 class VerticalDrone:
+    """
+    This class simulates a drone that can only move in one dimension, the vertical
+    direction. You will use this simulation to test and tune your PID class before you
+    transfer it onto your real drone. Do not modify any of the code in this file.
+    """
+
     def __init__(self, axes, histaxes, pid_terms=[0, 0, 0, 0],
                  step_size=0, latency=0, drag_coeff=0, mass=460, sensor_noise=0):
 
@@ -130,7 +136,6 @@ def main():
 
     args = parser.parse_args()
 
-    pid_terms = []
     with open("z_pid.yaml", 'r') as stream:
         try:
             yaml_data = yaml.safe_load(stream)

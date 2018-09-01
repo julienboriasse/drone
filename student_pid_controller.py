@@ -3,7 +3,12 @@ from pid_controller import PIDController, main
 import yaml
 import sys
 
+
 class StudentPIDController(PIDController):
+    """
+    This is the PID controller that you will use to fly your PID class on your drone!
+    Do not modify any of the code in this file.
+    """
 
     def __init__(self):
         super(StudentPIDController, self).__init__()
