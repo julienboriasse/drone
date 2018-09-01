@@ -1,7 +1,9 @@
+#!/usr/bin/env python
 from student_pid_class import PID
+import sys
+sys.path.insert(0, '/home/pi/ws/src/pidrone_pkg/scripts')
 from pid_controller import PIDController, main
 import yaml
-import sys
 
 
 class StudentPIDController(PIDController):
