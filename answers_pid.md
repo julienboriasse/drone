@@ -9,28 +9,28 @@
   4.
   5.
   6.
-  7.  $K_p$:
-      $K_i$:
-      $K_d$:
+  7.  $K_p$:  
+      $K_i$:  
+      $K_d$:  
 
 ### Problem 2
-  1.  $K_p$:
-      $K_i$:
-      $K_d$:
+  1.  $K_p$:  
+      $K_i$:  
+      $K_d$:  
   2.
   3.
 
 ### Problem 3
-  1.  $K_p$:
-      $K_i$:
-      $K_d$:
-  2.
+  1.  $K_p$:  
+      $K_i$:  
+      $K_d$:  
+  2.  
 
 ## Part 2: Planar Tuning
 
 ### Problem 1
-  1.
-  2.
+  1.  
+  2.  
 
 ### Problem 2
   1.
@@ -44,14 +44,14 @@
 ## Part 3: Altitude Tuning
 
 ### Problem 1
-  1.  $K_u$:
-  2.  $T_u$:
-  3.  $K_p$:
-      $K_i$:
-      $K_d$:
-  4.  $K_p$:
-      $K_i$:
-      $K_d$:
+  1.  $K_u$:  
+  2.  $T_u$:  
+  3.  $K_p$:  
+      $K_i$:  
+      $K_d$:  
+  4.  $K_p$:  
+      $K_i$:  
+      $K_d$:  
 
 ## Part 4: Position Control
 
