@@ -34,6 +34,3 @@
 
 ### Problem 2
   1.
-
-### Problem 3
-  1.
