@@ -139,11 +139,11 @@ def main():
     with open("z_pid.yaml", 'r') as stream:
         try:
             yaml_data = yaml.safe_load(stream)
-            print yaml_data
+            print(yaml_data)
             pid_terms = [yaml_data['Kp'], yaml_data['Ki'], yaml_data['Kd'], yaml_data['K']]
         except yaml.YAMLError as exc:
-            print exc
-            print 'Failed to load PID terms! Exiting.'
+            print(exc)
+            print('Failed to load PID terms! Exiting.')
             sys.exit(1)
 
     fig = plt.figure()
