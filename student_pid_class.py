@@ -40,7 +40,7 @@ class PID:
                   sent to the SkyLine's throttle channel
         """
 
-        return 1100
+        return 1350
 
     def reset(self):
         """
