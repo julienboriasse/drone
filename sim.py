@@ -93,6 +93,14 @@ class VerticalDrone:
             plt.close('all')
             sys.exit(0)
 
+    def click(self, event):
+        if event.button == 1:
+            self.setpoint += self.step_size
+        elif event.button == 3:
+            if self.setpoint > 0: self.setpoint -= self.step_size
+        elif event.button == 2:
+            self.reset()
+
     def reset(self):
         self.lastt = time() - self.start
         self.times = []
@@ -162,6 +170,7 @@ def main():
                         sensor_noise=max(args.noise, 0))
 
     fig.canvas.mpl_connect('key_press_event', sim.press)
+    fig.canvas.mpl_connect("button_press_event", sim.click)
     ani = animation.FuncAnimation(fig, sim.animate,
                                   interval=25, blit=True, init_func=sim.init_animation)
     plt.show()
